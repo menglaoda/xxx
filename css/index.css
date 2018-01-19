@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+}
+.header{
+	position: absolute;
+	right: 12px;
+	top: 22px;
+}
+.header a{
+	color: black;
+	font-weight: 900;
+	font-size: 13px;
+	float: left;
+	margin-left: 20px;	
+}
+.header .geduo{
+	color: white;
+	width: 60px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	text-decoration: none;
+	background: #3388ff;
+	position: relative;
+	top: -3px;
+}
+.oimg{
+	margin: 0 auto;
+	display: block;
+	margin-top: 108px;
+}
+.seach{
+	width: 640px;
+	height: 36px;
+	border: solid 1px #b8b8b8;
+	margin:  0 auto;
+	margin-top: 36px;
+	position: relative;
+}
+.seach input{
+	border: none;
+	width: 500px;
+	height: 30px;
+	position: absolute;
+	top: 2px;
+	text-indent: 10px;
+	outline: medium;
+	
+}
+.seach span{
+	width: 100px;
+	height: 36px;
+	background: #3385ff;
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	text-align: center;
+	line-height: 36px;
+	color: white;
+}
+.seach img{
+	position: absolute;
+	right: 111px;
+	top: 10px;
+}
